@@ -1,12 +1,3 @@
-/*
-	Georgia
-
-	Demo css to show basic, blog-like styling
-
-	Visit http://www.ulyssesapp.com/styles for full reference
-
-*/
-
 body {
   text-align:center; 
   color:#000; 
@@ -28,10 +19,21 @@ a:hover {color:#606;}
 a:active {color:#900; outline:none;}
 
 h1 {
-  font-size:300%;
+  font-weight:bold;
+  font-size:200%;
+  line-height: 140%;
+  margin:0.75em 0 0.75em;
+  /*font-size:300%;
   line-height:1.2;
   font-style:normal;
-  margin:1em 0 1em;
+  margin:1em 0 1em;*/
+}
+
+h1>sub {
+  text-align:center;
+  font-style:italic;
+  font-size:100%;
+  margin:-0.75em 0 -0.75;
 }
 
 h2 {
@@ -72,6 +74,7 @@ h6 {
 
 p {
   text-align:left;
+  text-indent:1.5em;
   font-size:100%;
   margin:1em 0 0;
 }
@@ -83,14 +86,12 @@ h1 + p {
 }
 */
 
-p + p {
-  margin:0;
-  text-indent:1.5em;
-}
 
+/*
 h1 + p {
   text-indent:0;
 }
+*/
 
 p + ul, p + ol, p + dl {margin-bottom:1.5em;}
 
@@ -101,7 +102,7 @@ figure img {border: 1px solid #ccc;}
 figcaption {font-size: 66%;padding: 1em; padding-top: 0.5em;color: #aaa;}
 
 blockquote {border-left:5px solid #eee; padding-left:1.5em; margin:1em 0;}
-blockquote p {text-indent: 0 !important;font-style: italic;}
+blockquote p {text-indent: 0 !important}
 blockquote small {display:block; line-height:1.7em;}
 
 ul, ol, dl {
@@ -124,7 +125,7 @@ code {font-family: Menlo, monospace; font-size:80%;}
 p > code {padding:0.2em 0.4em; background:#eee;}
 pre {text-align:left; overflow-x: scroll; background: #eee; padding: 10pt 20pt; border-radius: 5pt;}
 
-hr {border: none; margin:1.5em 0 1.5em;font-size:200%;color: #ddd; height: 1em;}
+hr {border: none; margin:0em 0 1em;font-size:200%;color: #ddd; height: 1em;}
 hr:after {content: "❧"}
 
 h1 + hr {margin:-0.5em 0 1.5em; font-size: 400%;}
