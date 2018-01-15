@@ -183,3 +183,7 @@ a:target, ol#footnotes li:target, sup a:target  {
 	}
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
