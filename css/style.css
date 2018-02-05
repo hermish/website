@@ -187,3 +187,8 @@ a:target, ol#footnotes li:target, sup a:target  {
     border-radius: 50%;
 }
 
+ul li {
+    line-height: 1.1;
+    padding: 0px 0px;
+}
+
